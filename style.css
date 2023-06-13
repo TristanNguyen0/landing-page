@@ -1,0 +1,202 @@
+:root{ /*var for colors*/
+    --dark-background-color: #1F2937;
+    --hero-main-color: #F9FAF8;
+    --header-link-color: #E5E7EB;
+    --button-color: #3882F6;
+    --information-header-color: #1F2937;
+    --quote-background-color: #E5E7EB;
+    --quote-text-color: #1F2937; 
+}
+
+body{
+    /* display:flex; */
+    margin: 0px;
+    font-family: 'Hero New', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+
+}
+
+header{
+    background-color: var(--dark-background-color);
+    display: flex;
+    padding: 16px 300px;
+}
+
+.logo{
+    color: var(--hero-main-color);
+    display: flex;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.links{
+    color: var(--header-link-color);
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 24px;
+}
+
+.info{
+    display: flex;
+    background-color: var(--dark-background-color);
+    padding: 64px 300px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: auto;
+    gap: 8px;
+}
+
+.awesome{
+    color: var(--hero-main-color);
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subtext{
+    color: var(--header-link-color);
+    font-size: 18px;
+}
+
+.sign-up-button{
+    background-color: var(--button-color);
+    border-radius: 6px;
+    border-style: none;
+    color: var(--hero-main-color);
+    font-weight: bold;
+    width: 128px;
+    height: 32px;
+    font-size: 18px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px;
+    width: 400px;
+    height: 80px;
+    background-color: grey;
+    color: white;
+    margin-left: 24px;
+}
+
+.random-info{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 80px;
+}
+
+.information-header{
+    color: var(--information-header-color);
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    margin-top: 48px;
+}
+
+.info-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+.placeholder{
+    border-style: solid;
+    border-radius: 6px;
+    border-color: var(--button-color);
+    width:  150px;
+    height: 150px;
+}
+
+.image-caption{
+    text-align: center;
+    margin-top: 6px;
+}
+
+.quote-section{
+    padding: 128px 300px;
+    background-color: var(--quote-background-color);
+
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: var(--quote-text-color);
+}
+
+.quote-author{
+    color: var(--information-header-color);
+    font-weight: bold;
+    text-align: end;
+}
+
+.action-section{
+    padding: 80px 300px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 50px 80px;
+    background-color: var(--button-color);
+    flex:1;
+}
+
+.action-title{
+    color: var(--hero-main-color);
+    font-weight: bold;
+    font-size: 20px;
+    display:flex;
+}
+
+.action-text{
+    display:flex;
+    margin-right:auto;
+    color:white;
+}   
+
+.action-button{
+    border-radius: 6px;
+    border-style: none;
+    background-color: var(--button-color);
+    color:white;
+    font-weight: bold;
+    width: 128px;
+    height: 32px;
+    font-size: 18px;
+    border-style: solid;
+    border-color:white;
+}
+
+
+footer{
+    background-color: var(--dark-background-color);
+    color: white;
+    padding: 32px;
+    text-align: center;
+}
